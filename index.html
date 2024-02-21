@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -36,42 +37,42 @@
                 <ui>
                     <li>
                         <a class="tar" href="https://medium.com/taipei-ethereum-meetup">TEM Column Reward</a> 
-                        <b>---</b>
+                        <b>⏤</b>
                         <a class="proof" href="https://etherscan.io/address/0x2b83c71a59b926137d3e1f37ef20394d0495d72d#tokentxns">300 DAI (~9,000 NTD)</a>
                     </li>
                     <li>
                         <a class="tar" href="https://docs.google.com/presentation/d/1sOTh4g4cQ2Xpe_j8Xj2LtRi7mkEb-8HCgwuHniVYHf0/edit?usp=sharing">Instruction Fee in EF Activity</a>
-                        <b>---</b>
+                        <b>⏤</b>
                         <a class="proof" href="https://etherscan.io/address/0x2b83c71a59b926137d3e1f37ef20394d0495d72d#tokentxns">140 USDC (~4,200 NTD)</a>
                     </li>
                     <li><a class="tar" href="https://www.starknet.io/en/content/starknet-provisions-program">StarkNet Airdrop</a>
-                        <b>---</b>
-                        <a class="proof" href="https://starkscan.co/tx/0x35d0aac7ec5c26a9975cb9e09c717620a9a08016ef94207ab96d73ad3d95d5f">3,000 STRK (~180,000 NTD)</a>
+                        <b>⏤</b>
+                        <a class="proof" href="https://starkscan.co/tx/0x35d0aac7ec5c26a9975cb9e09c717620a9a08016ef94207ab96d73ad3d95d5f">2,000 STRK (~120,000 NTD)</a>
                     </li>
                 </ui>
-                <p>Total Issue: 193,200 NTD</p>
+                <p>Total Issue: 133,200 NTD</p>
             </div>
             <div>
                 <h2>Fund Forward / Grant Programs</h2>
-                <ui>
-                    <li>
-                        <a class="tar" href="https://github.com/SWF-Lab/DappChef-MonoRepo">DappChef</a>
-                        <b>---</b>
-                        <a class="proof" href="https://github.com/SWF-Lab/DappChef-MonoRepo">40,000 NTD</a>
-                        (finish!)
-                    </li>
-                    <li>
-                        <a class="tar" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Student Music Grants</a>
-                        <b>---</b>
-                        <a class="proof" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">100,000 NTD</a>
-                        (stay tuned!)
-                    </li
-                </ui>
+                <button type="button" class="collapsible">DappChef ⏤ 40,000 NTD (finish!)</button>
+                <div class="content">
+                    <ul>
+                        <li><a class="tar" href="https://github.com/SWF-Lab/DappChef-MonoRepo">Applicant information</a></li>
+                        <li><a class="proof" href="https://github.com/SWF-Lab/DappChef-MonoRepo">Given Proof</a></li>
+                    </ul>
+                </div>
+                <button type="button" class="collapsible">Student Music Grants ⏤ 80,000 NTD (stay tuned!)</button>
+                <div class="content">
+                    <ul>
+                        <li><a class="tar" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Applicant information</a></li>
+                        <li><a class="proof" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Given Proof</a></li>
+                    </ul>
+                </div>
             </div>
             <div>
                 <h2>Eligibility for Application</h2>
                 <ui>
-                    <li>20 years old and above.</li>
+                    <li>At least one applicant is 20 years old and above.</li>
                     <li>Follow Instagram: <a class="tar" href="https://www.instagram.com/gospel_mur/">
                             gospel_mur</a>.</li>
                     <li>Follow Twitter: <a class="tar" href="https://x.com/murmurlu">
@@ -91,6 +92,23 @@
             </div>
         </div>
     </div>
+    Final Update: 2024/2/21 23:13 (GMT+8)
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    }
+</script>
 </body>
 
 </html>

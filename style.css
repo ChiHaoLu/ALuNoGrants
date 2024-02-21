@@ -117,3 +117,41 @@ a {
         padding-top: 2rem;
     }
 }
+
+.collapsible {
+    background-color: #101214;
+    color: #1bb6b6;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.15rem;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #101214;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #101214;
+}
+
+.collapsible:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    color: #1bb6b6;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}

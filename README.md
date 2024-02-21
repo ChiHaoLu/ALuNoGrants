@@ -1,6 +1,6 @@
 # ALuNoGrants
 
-See you all in [website](https://chihaolu.github.io/ALuNoGrants/). 
+See you all in the [grant website](https://chihaolu.github.io/ALuNoGrants/). 
 
 ## Reference
 
